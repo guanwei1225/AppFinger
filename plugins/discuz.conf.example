@@ -1,0 +1,17 @@
+[info]
+author = "MrChen"
+version = "1.0"
+discription = "Opensource CMS"
+dorks = "powerd by Discuz"
+examples = "www.discuz.net"
+
+[matches]
+md5 = {"/index.php":"2c99e76201f38ac1a9cc9000f6ba60a5","/index1.php":"2c99e76201f38ac1a9cc9000f6ba60a5"}
+code = {"/index.php":"200","/index1.php":"404"}
+title = {"/index.html":"中文","/index1.php":"404"}
+header = {"/index.php":{"Server":"LiteServer"}}
+text = {"/index.html":"你好","/":"度"}
+
+[version]
+vmd5 = {"/index1.php":{"2c99e76201f38ac1a9cc9000f6ba60a5":"v1.0"},"/index.php":{"1c99e76201f38ac1a9cc9000f6ba60a5":"v1.0"}}
+vtext = {"/":{"度":"v1.1"}}
